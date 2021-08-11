@@ -5,7 +5,7 @@
     border:solid black 1px;
     display: flex;
     flex-wrap:wrap;
-    
+    background-image: url('assets/background.png');
     
     }
 
@@ -21,6 +21,14 @@
 }
 
 .shooter{
-    background-color: greenyellow;
+    background-image: url('assets/hero.png');
    
+}
+.laser{
+    background-image: url('assets/missile1.png');
+    size: 1vh;
+}
+
+.boom {
+    background-image: url('assets/boom.png');
 }
